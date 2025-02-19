@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
-import joblib
+import joblib as j
 import scipy.stats as s
 
 # Load the saved Gaussian parameters
-(mu_0, sigma_0, mu_1, sigma_1, strong_features) = joblib.load("gaussian_parameters.pkl")
+(mu_0, sigma_0, mu_1, sigma_1, strong_features) = j.load("gaussian_parameters.pkl")
 
 # Streamlit UI
 st.title("🩺 Breast Cancer Diagnosis Predictor")
