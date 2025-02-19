@@ -1,4 +1,3 @@
 streamlit
 joblib
 scipy.stats
-py -m pip install --upgrade pip
