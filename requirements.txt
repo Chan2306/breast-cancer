@@ -2,3 +2,4 @@ streamlit
 joblib
 scipy.stats
 returned
+pip install --upgrade pip
